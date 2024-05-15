@@ -1,11 +1,14 @@
 import React from 'react'
-import {Box} from '@mui/material'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './layouts/Home'
 
 function App() {
   return (
-    <Box sx={{fontSize:'20px'}}>
-      Hello World
-    </Box>
+     <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
+     </BrowserRouter>
   )
 }
 
