@@ -1,0 +1,66 @@
+/* General styles for the footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent */
+  opacity: 0.3;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the left section of the footer */
+.footer-left {
+  flex: 1;
+}
+
+.footer-left h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer-left p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+/* Styling for the right section of the footer */
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+/* Styling for the social media icons */
+.social-media {
+  margin-bottom: 10px;
+}
+
+.social-media svg {
+  margin: 0 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-media svg:hover {
+  color: #ddd;
+}
+
+/* Styling for the footer links */
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ddd;
+}
