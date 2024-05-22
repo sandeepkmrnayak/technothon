@@ -1,0 +1,16 @@
+
+.my-container{
+    padding-top: 10%;
+    height: 100%;
+    background: radial-gradient(circle,#e7d0e8,#f2e0c3);
+    /* background-image: url('../images/login-background-image.jpg'); */
+    /* z-index: 1;
+    position: relative; */
+}
+
+.my-btn{
+    background-color: #004953;
+}
+.text{
+    color:  #004953 ;
+}

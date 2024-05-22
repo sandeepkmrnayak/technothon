@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import ElectronicsCarousel from "../ElectronicsCarousel/ElectronicsCarousel";
 import { BottomNavigation } from "@mui/material";
 import Footer from "./../Footer/Footer";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -14,9 +15,9 @@ function LandingPage() {
           </div>
 
           <div class="box-1">
-            <div class="btn btn-one">
+            <Link to="/login" className="btn btn-one" style={{textDecoration:'none'}}>
               <span>Sign In</span>
-            </div>
+            </Link>
           </div>
         </div>
         {/* end navbar*/}
